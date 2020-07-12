@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #81d4fa;
+  font-family: "Yeon Sung", cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main {
+  text-align: center;
+  background-color: #4ba3c7;
+  padding: 22px;
+  font-family: "Indie Flower", cursive;
+}
+
+.main__home i {
+  padding: 0 10px;
+  font-size: 25px;
+  color: #b5ffff;
+}
+
+.main__home {
+  font-size: 40px;
+}
+
+.your-class {
+  position: relative;
+  top: 120px;
+  text-align: center;
+  background-color: #b5ffff;
+  border-radius: 80px;
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+  max-width: 951px;
+  margin: auto;
+  padding: 34px 34px 24px 34px;
+}
+
+button,
+button:focus {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.slick-arrow {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  width: 33px;
+  height: 33px;
+  border-radius: 40%;
+  background: rgba(0, 0, 0, 0.3);
+  transform: translateY(-25px);
+  border: none;
+}
+
+.slick-prev.slick-arrow {
+  left: 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.slick-next.slick-arrow {
+  right: 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.your-class video {
+  width: 100%;
+  border-radius: 50px;
+}

@@ -19,9 +19,12 @@ ul {
 }
 
 .main {
+  position: sticky;
+  top: 0;
   text-align: center;
   background-color: #4ba3c7;
   padding: 22px;
+  z-index: 2;
 }
 
 .main__home i {

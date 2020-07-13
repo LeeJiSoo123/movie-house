@@ -87,3 +87,27 @@ button:focus {
 .maokai {
   color: red;
 }
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+
+  margin: 0;
+  padding: 1rem 0;
+
+  list-style-type: none;
+}
+
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+  color: #fff;
+  opacity: 1;
+  font-size: 16px;
+}
+.slick-dots li.slick-active button {
+  border: 5px solid #00ac9f;
+  border-radius: 40%;
+}
+.slick-dots li.slick-active button:before {
+  color: transparent;
+}

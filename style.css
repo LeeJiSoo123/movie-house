@@ -137,7 +137,10 @@ ul {
   font-family: "Bangers", cursive;
   color: red;
 }
-
+.ml14 .name {
+  color: red;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
 .ml14 .text-wrapper {
   position: relative;
   display: inline-block;

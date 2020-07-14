@@ -119,10 +119,3 @@ button:focus {
 .slick-dots li.slick-active button:before {
   color: transparent;
 }
-
-@media screen and (max-width: 480px) {
-  .your-class iframe {
-    width: 412px;
-    height: 231.75px;
-  }
-}

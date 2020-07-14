@@ -87,6 +87,11 @@ button:focus {
   border-radius: 50px;
 }
 
+.your-class iframe {
+  width: 100%;
+  border-radius: 50px;
+}
+
 .maokai {
   color: red;
 }

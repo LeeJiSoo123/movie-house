@@ -41,13 +41,12 @@ ul {
 .your-class {
   position: relative;
   top: 120px;
+
   text-align: center;
   background-color: #b5ffff;
   border-radius: 80px;
   display: flex;
   font-size: 20px;
-  width: 100%;
-  height: 100%;
   max-width: 951px;
   margin: auto;
   padding: 34px 34px 24px 34px;

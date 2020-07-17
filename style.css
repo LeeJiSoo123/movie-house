@@ -90,6 +90,12 @@ ul {
   border: 5px solid #32cb93;
   box-shadow: 0 0 5px black, 0 0 7px white inset;
 }
+
+.your-class .pig {
+  border: 5px solid gold;
+  box-shadow: 0 0 5px black, 0 0 7px white inset;
+}
+
 .slick-arrow {
   z-index: 10;
   position: absolute;
